@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit";
+    color: hsl(14, 45%, 36%);
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    font-family: "Young Serif";
+    font-weight: 400
+}
+
+.card-main {
+    background-color: white;
+    min-width: 375px;
+    max-width: 700px;
+    border-radius: 20px;
+    padding: 35px;
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.title-ing,
+.title-inst,
+.title-nut {
+    font-size: 25px;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.start-text {
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.card-prep {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 20px
+}
+
+.prep {
+    color: hsl(332, 51%, 32%);
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.prep-li {
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.prep-li li {
+    margin-bottom: 10px;
+}
+
+.ing {
+    padding-left: 30px;
+}
+
+.ing li {
+    padding-bottom: 15px;
+}
+
+.first-line,
+.second-line,
+.third-line,
+.fourth-line,
+.fifth-line {
+    margin-block: 20px;
+    opacity: 0.5;
+}
+
+.inst {
+    padding-left: 20px;
+}
+
+.inst li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.nut {
+    margin-bottom: 20px;
+}
+
+.nut-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+.first-str,
+.second-str,
+.third-str,
+.fourth-str {
+    display: contents;
+}
+
+.nut-table p:first-child {
+  padding-left: 30px;
+  grid-column: 1; 
+}
+
+
+.nut-table p:last-child {
+  padding-right: 30px;
+  grid-column: 2; 
+}
+
+.nut-table hr {
+  grid-column: 1 / span 2;
+  margin: 10px 30px; 
+  opacity: 0.5;
+}
+
